@@ -20,23 +20,14 @@ sudo docker run --privileged --name fairyland -p 8280:8280 -p 80:80 -p 8888:8888
 
 3.修改配置文件
 
-进入docker,执行如下命令
+3.1 进入docker,执行如下命令
 sudo docker exec -it fairyland bash
 
-将/root/fairyland/oa_manager/application.oa.manager.properties文件中
-
-im_ip_port=192.168.43.19:9080
-ice_url=192.168.43.19:3478
-ice_user=ling
-ice_pasw=ling1234
-
-将其中的ip换成宿主机器的ip，比如192.168.0.107
+3.2 找到/root/fairyland/oa_manager/application.oa.manager.properties文件中的im_ip_port和ice_url,将其中的ip换成宿主机器的ip
 
 4.重启oa manager
 
-进入oa manager所在目录后,重启oa manager
-cd /root/fairyland/oa_manager
-./restartOaManager.sh
+进入oa manager所在目录(/root/fairyland/oa_manager)后,重启oa manager,重启脚本./restartOaManager.sh
 
 5.使用chrome浏览器访问系统
 https://192.168.0.107
