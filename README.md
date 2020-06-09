@@ -15,9 +15,11 @@ sudo docker import fairyland.tar fairyland
 sudo docker pull ivantown/fairyland
 
 2.启动docker
+
 sudo docker run --privileged --name fairyland -p 8280:8280 -p 80:80 -p 8888:8888 -p 3478:3478 -p 3478:3478/udp -p 8380:8380 -p 9080:9080 -p 8180:8180 -p 443:443 --rm -d fairyland /sbin/init
 
 3.修改配置文件
+
 进入docker,执行如下命令
 sudo docker exec -it fairyland bash
 
@@ -31,6 +33,7 @@ ice_pasw=ling1234
 将其中的ip换成宿主机器的ip，比如192.168.0.107
 
 4.重启oa manager
+
 进入oa manager所在目录后,重启oa manager
 cd /root/fairyland/oa_manager
 ./restartOaManager.sh
