@@ -7,6 +7,7 @@ A system for OA
    假设宿主机器IP为：192.168.0.107
 
 1. 导入docker镜像
+
 1.1.从本地文件导入docker
 sudo docker import fairyland.tar fairyland
 
@@ -36,3 +37,4 @@ cd /root/fairyland/oa_manager
 
 5.使用chrome浏览器访问系统
 https://192.168.0.107
+
