@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T03:03:38.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="js7VA7vfcyeelAuUNmMA" version="15.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T03:06:52.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="YVWyUcZjEwO4jtN_a6oS" version="15.7.0" type="github">
   <diagram id="nxqIbPxLtPHiabSfTje6" name="Page-1">
     <mxGraphModel dx="1122" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,6 +22,15 @@
             <mxPoint x="407" y="165" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="k1YCn7YsN1y8buzWTDnB-8" value="放款前处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1YCn7YsN1y8buzWTDnB-9" value="放款处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="k1YCn7YsN1y8buzWTDnB-10" value="放款后处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="430" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
